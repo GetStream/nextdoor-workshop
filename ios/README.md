@@ -71,7 +71,7 @@ let userId = "REPLACE_WITH_NEXT_DOOR_USER_ID"
 
 ChatClient.shared.connectUser(
     userInfo: UserInfo(
-        id: userId,
+        id: userId
     ),
     tokenProvider: { completion in
         requestToken(userId: userId) { result in
